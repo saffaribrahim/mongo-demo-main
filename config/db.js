@@ -4,7 +4,7 @@ const colors = require("colors");
 async function connectDB() {
   try {
     await mongoose.connect(
-      "mongodb+srv://moslem2020:123moslem@cluster0.6hprc.mongodb.net/school"
+    //saffaribrahim:<db_password>@cluster0.6utvasg.mongodb.net/ 
     );
 
     console.log("Connected to MongoDB...".green.bold);
